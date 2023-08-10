@@ -1,0 +1,80 @@
+.sobre-mim {
+    background-color: #1f1e1e;
+}
+
+.sobre-mim .container .section-title h2 {
+    color: #ddd;
+}
+
+.sobre-mim .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sobre-mim .imagem-sobre-mim {
+    max-width: 40%;
+    padding: 0 15px;
+}
+
+.sobre-mim .imagem-sobre-mim .img-box {
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sobre-mim .imagem-sobre-mim img {
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    height: 320px;
+}
+
+.sobre-mim .informacoes-sobre-mim {
+    max-width: 50%;
+    padding: 0 25px;
+}
+
+.sobre-mim .informacoes-sobre-mim .botoes {
+    margin-top: 50px;
+}
+
+.sobre-mim .informacoes-sobre-mim p {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.informacoes-sobre-mim strong {
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+@media (max-width: 980px) {
+    .sobre-mim .row {
+        justify-content: center;
+    }
+
+    .sobre-mim .imagem-sobre-mim {
+        max-width: 100%;
+        padding: 0 var(--mobile-padding);
+        margin-bottom: 50px;
+    }
+
+    .sobre-mim .informacoes-sobre-mim {
+        padding: 0 var(--mobile-padding);
+        text-align: center;
+    }
+
+    .sobre-mim .informacoes-sobre-mim {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .sobre-mim {
+        background: url("https://alexandremagno.net/wp-content/uploads/2019/11/fpkvu7rdmco.jpg")
+            center center no-repeat;
+        background-size: cover;
+    }
+}

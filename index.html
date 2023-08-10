@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paulo Victor - Desenvolvedor</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <link rel="stylesheet" href="src/css/variaveis.css">
+
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+
+  <!-- Seções -->
+  <link rel="stylesheet" href="src/css/header.css">
+  <link rel="stylesheet" href="src/css/home.css">
+  <link rel="stylesheet" href="src/css/sobre.css">
+  <link rel="stylesheet" href="src/css/habilidades.css">
+  <link rel="stylesheet" href="src/css/projetos.css">
+  <link rel="stylesheet" href="src/css/footer.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">PV</h1>
+        </a>
+
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <section class="home" >
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🤖,</p>
+          <h1>Sou o Paulo Victor</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/paulo-victor-75302a265/" target="_blank" class="outer-shadow linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/victorscript/" target="_blank" class="outer-shadow insta">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5585992849785&text=ol%C3%A1!%20me%20interessei%20pelo%20seu%20trabalho." target="_blank" class="outer-shadow whats">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com/ivitinho1" target="_blank" class="outer-shadow github">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/eu-1_(1).png" alt="foto do perfil" class="outer-shadow">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-mim section" id="sobre-mim" data-aos="fade-up">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/eu-2.jpg" alt="foto do perfil" class="outer-shadow">
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Paulo Victor sou um desenvolvedor frontend em
+              formação para ser um programador Fullstack.</strong>
+              Gosto MUITO da área de tecnologia principalmente de programar, e tenho certeza que posso
+              contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+            Estou sempre me desafiando com novos projetos e participando de comunidades de programação
+            para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas 
+            pessoas com o que eu já aprendi. 😁
+          </p>
+
+          <p>
+            SITES COMO ESSE DENTRE OUTROS, SÃO CRIADOS POR <strong>EU MESMO.</strong>
+          </p>
+          <div class="botoes">
+            <a target="_blank" href="src/arquivos/meu-CV.pdf" class="botao outter-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades" data-aos="fade-down">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-habilidades row">
+      <div class="habilidade js">
+        <div class="logo">
+          <i class="devicon devicon-javascript-plain"></i>
+        </div>
+        <h3>JavaScript</h3>
+        <p>Tenho uma boa base do JS. Já entendo bem conceitos como callbacks, promisses, async/await, 
+          consumo de APIs, destructuring, spread operators,condições dentre outros. </p>
+      </div>
+
+      <div class="habilidade react">
+        <div class="logo">
+          <i class="devicon devicon-react-plain"></i>
+        </div>
+        <h3>ReactJS</h3>
+        <p>Sobre React ainda estou no inicio, mas confesso que estou sempre em constante evolução
+          dia após dia buscando e aprimorando meus conhecimentos com essa incrivel tecnologia.
+          </p>
+      </div>
+
+      <div class="habilidade html">
+        <div class="logo">
+          <i class="devicon devicon-html5-plain-wordmark"></i>
+        </div>
+        <h3>HTML5</h3>
+        <p>Como todo mundo sabe o HTML é a base de todo site, não adianta apenas saber mas sim 
+          saber organizar seu código. no HTML entendo bem sobre tags semânticas e codigo organizado.
+        </p>
+      </div>
+
+      <div class="habilidade css">
+        <div class="logo">
+          <i class="devicon devicon-css3-plain-wordmark"></i>
+        </div>
+        <h3>CSS3</h3>
+        <p>No CSS a parte de estilizar e saber deixar o site mais dinâmico e acessível para
+          todos os tipos de usuários e telas, consigo sempre deixar todos meus sites responsivos.
+        </p>
+      </div>
+
+      <div class="habilidade github">
+        <div class="logo">
+          <i class="devicon devicon-github-original"></i>
+        </div>
+        <h3>GitHub</h3>
+        <p>Github é uma plataforma na qual nós programadores usamos bastante,em prool de 
+          subrimos nossos codigos,projetos.. para que assim outros programadores possam mecher,
+          fazer um commit,fork,copiar,pegar exemplos etc.
+        </p>
+      </div>
+
+      <div class="habilidade git">
+        <div class="logo">
+          <i class="devicon devicon-git-plain"></i>
+        </div>
+        <h3>Git</h3>
+        <p>Git muito parecido com Github, é uma ferramenta muito importante para que possamos
+          muitas das vezes instalarmos frameworks tais como ReactJS,angular,VueJS,Express JS dentre outros.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos" id="projetos" data-aos="fade-right">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus Projetos</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-projetos container">
+      <div class="projeto">
+        <a href="https://ivitinho1.github.io/snake-game/" target="_blank">
+          <img src="src/imagens/pjt1.png" alt="Nome do projeto 1">
+          <h3>Snake - Game 🐍</h3>
+      <div class="informacoes-projeto">
+            <p>Site desenvolvido durante uma video aula na qual queria entender conceitos mais avançados 
+              de JavaScript,onde me desafiei a desenvolver esse jogo também para Mobile, agora ele funciona
+              para qualquer tipo de dispositivo, JOGUE E DIVIRTA-SE.
+            </p>
+        </a>
+            <a class="git" href="https://github.com/ivitinho1/snake-game" target="_blank">
+            <p>🔗 ver repositorio no GitHub</p>
+            </a>
+      </div>
+    </div>
+
+    <div class="projeto">
+      <a href="http://127.0.0.1:5500/burguer/index.html" target="_blank">
+        <img src="src/imagens/projeto2.png" alt="Nome do projeto 1">
+        <h3>hamburgueria-cardápio</h3>
+    <div class="informacoes-projeto">
+          <p> 
+            esse site contem duas paginas uma inicial e outra com o cardápio,foi desenvolvido no intuito
+            de fazer um freelancer para um cliente na minha cidade,a parte inicial
+            do site mostrando um pouco melhor sobre a empresa quanto a parte do cardápio para o cliente 
+            poder fazer o pedido via whatsApp.
+          </p>
+      </a>
+          <a class="git" href="https://github.com/ivitinho1/hamburger-menu" target="_blank">
+          <p>🔗 ver repositorio no GitHub</p>
+          </a>
+    </div>
+    </div>
+    <div class="projeto">
+      <a href="https://ivitinho1.github.io/trained-methods/" target="_blank">
+        <img src="src/imagens/projeto-3.png" alt="Nome do projeto 1">
+        <h3>training-methods👨‍💻</h3>
+    <div class="informacoes-projeto">
+          <p>
+            Sistema esse também desenvolvido para fixar estudos sobre JavaScript avançado,com alguns
+            metodos importantes como o Map,Reduce,Filter.. nesta aplicação mostra bem isso sobre
+            mapear e filtrar elementos de arrays.
+            
+          </p>
+      </a>
+          <a class="git" href="https://github.com/ivitinho1/trained-methods" target="_blank">
+          <p>🔗 ver repositorio no GitHub</p>
+          </a>
+    </div>
+  </div>
+
+  <div class="projeto">
+    <a href="https://ivitinho1.github.io/Code-Salon/" target="_blank">
+      <img src="src/imagens/projeto-4.png" alt="Nome do projeto 1">
+      <h3>Code - Salon 💅</h3>
+  <div class="informacoes-projeto">
+        <p>
+          primeiro site no qual desenvolve apenas para se adaptar a qualquer tipo de tela para celular,funciona apenas para celulares, esse projeto é pessoal meu que teve como intuito vender como um fleelancer.
+        </p>
+    </a>
+        <a class="git" href="https://github.com/ivitinho1/Code-Salon" target="_blank">
+        <p>🔗 ver repositorio no GitHub</p>
+        </a>
+  </div>
+  </div>
+    </div>
+  </section>
+
+  <footer class="footer" data-aos="fade-down">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/paulo-victor-75302a265/" target="_blank" class="outer-shadow linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.instagram.com/victorscript/" target="_blank" class="outer-shadow insta">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=5585992849785&text=ol%C3%A1!%20me%20interessei%20pelo%20seu%20trabalho."  target="_blank" class="outer-shadow whats">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://github.com/ivitinho1" target="_blank" class="outer-shadow github">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
+</body>
+
+</html>
